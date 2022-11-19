@@ -7,9 +7,11 @@ function evenOrOdd(number) {
 
 
 function evenOrOdd(number) {
-    if(number % 2 === 0) {
+    if(number % 2 === 0) {     
     return "Even";
     } else {
     return "Odd";
     } 
   };
+
+// оператор (argument % 2 === 0), если четное число вернет true, если нечетное, вернет false
