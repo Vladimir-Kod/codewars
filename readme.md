@@ -1,0 +1,3 @@
+# Codewars
+
+Solving tasks codwars
