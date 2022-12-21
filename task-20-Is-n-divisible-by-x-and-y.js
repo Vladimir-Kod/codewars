@@ -7,9 +7,9 @@
 // 4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
 
 function isDivisible(n, x, y) {
-    if(n % x == 0 && n % y == 0){
-      return true;
-    } else {
+    if(n % x == 0 && n % y == 0){ // оператор % находит остаток от деления, если остаток есть, то значит не крато false
+      return true;                // ессли остатка нет значит кратно и это true
+    } else {                      
       return false;
     }
 }
