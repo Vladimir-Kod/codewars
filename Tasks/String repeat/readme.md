@@ -1,16 +1,23 @@
-/*
+# String repeat
+
+***
 DESCRIPTION:
+
 Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
 
 Examples (input -> output)
-6, "I"     -> "IIIIII"
-5, "Hello" -> "HelloHelloHelloHelloHello"
-*/
 
+6, "I"     -> "IIIIII"
+
+5, "Hello" -> "HelloHelloHelloHelloHello"
+***
+
+```js
 function repeatStr (n, s) {
     var words="";
     for (let i = 0; i < n; i++){
-    words += s;
+        words += s;
     }
     return words;
-  };
+};
+```
