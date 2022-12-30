@@ -1,7 +1,10 @@
-/*
-Simple, remove the spaces from the string, then return the resultant string.
-*/
+# Remove String Spaces
 
+***
+Simple, remove the spaces from the string, then return the resultant string.
+***
+
+```js
 function noSpace(x){
     let complateString=[];
     let string = x.split('');
@@ -11,6 +14,7 @@ function noSpace(x){
       } else {
         complateString[i]=string[i]
       }
-    }
+    };
     return complateString.join("");
-  };
+};
+```
